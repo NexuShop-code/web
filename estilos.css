@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #151515;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card .icon {
+    margin-bottom: 20px;
+  }
+  
+  .card .icon svg {
+    fill: #3b3b3b;
+  }
+  
+  .card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .card a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    color: #fff;
+    background: #3b3b3b;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .card a.button:hover {
+    background: #555;
+  }
+  
+  .card.roblox .icon svg {
+    fill: #d42f26;
+  }
+  
+  .card.discord .icon svg {
+    fill: #5865F2;
+  }
+  
+  .card.github .icon svg {
+    fill: #181717;
+  }
+  
